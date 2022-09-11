@@ -1,0 +1,138 @@
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+
+	<definition name="login" template="/WEB-INF/jsppages/login.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="content" value="/WEB-INF/jsppages/login.jsp"/>
+	</definition>
+	
+	<definition name="user_registration" template="/WEB-INF/jsppages/user_registration.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="content" value="" />
+	</definition>
+
+	<definition name="masterpage" template="/WEB-INF/jsppages/masterpage.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="content" value="" />
+	</definition>
+	
+	<definition name="dashboard" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/dashboard.jsp"/>
+	</definition>
+	
+	<definition name="sale" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/saleitem.jsp"/>
+	</definition>
+
+	<definition name="role" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/roler.jsp"/>
+	</definition>
+	
+	<definition name="privilege" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/privilege.jsp"/>
+	</definition>
+	
+	<definition name="UserProfile" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/userprofile.jsp"/>
+	</definition>
+	
+	<definition name="Assign_Privilege_to_Role" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/assign privilege to role.jsp"/>
+	</definition>
+	
+	<definition name="Assign_Privilege_to_user" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/Assign Privilege to user.jsp"/>
+	</definition>
+	
+	<definition name="company" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/company.jsp"/>
+	</definition>
+	
+	<definition name="category" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/addacategory.jsp"/>
+	</definition>
+	
+	<definition name="sub_category" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/addsubcategory.jsp"/>
+	</definition>
+	
+	<definition name="privilegecomp" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/privilege component.jsp"/>
+	</definition>
+	
+	<definition name="add_privilege" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/new privilege.jsp"/>
+	</definition>
+	
+	<definition name="payment" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/payment method.jsp"/>
+	</definition>
+	
+	<definition name="type" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/addtype.jsp"/>
+	</definition>
+	
+	<definition name="subtype" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/sybtype.jsp"/>
+	</definition>
+	
+	<definition name="emp" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/Employee.jsp"/>
+	</definition>
+	
+	<definition name="addnewemp" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/new employee.jsp"/>
+	</definition>
+	
+	<definition name="country" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/Country.jsp"/>
+	</definition>
+	
+	<definition name="state" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/State.jsp"/>
+	</definition>
+	
+	<definition name="city" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/City.jsp"/>
+	</definition>
+	
+	<definition name="typerate" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/Typerate.jsp"/>
+	</definition>
+	
+	<definition name="addsalesparty" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/add sales party.jsp"/>
+	</definition>
+	
+	<definition name="ItemMaster" extends="masterpage">
+		<put-attribute name="title" value="Welcome " />
+		<put-attribute name="content" value="/WEB-INF/jsppages/ItemMaster.jsp"/>
+	</definition>
+	
+	
+	
+</tiles-definitions>
